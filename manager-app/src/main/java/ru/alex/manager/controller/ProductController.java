@@ -11,7 +11,6 @@ import org.springframework.validation.BindingResult;
 import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.annotation.*;
 import ru.alex.manager.controller.payload.UpdateProductPayload;
-import ru.alex.manager.entity.Product;
 import ru.alex.manager.service.ProductService;
 
 import java.util.Locale;
