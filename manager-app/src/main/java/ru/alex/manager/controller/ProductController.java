@@ -44,7 +44,7 @@ public class ProductController {
     }
 
     @PostMapping("edit")
-    public String updateProduct(@ModelAttribute(value = "product", binding = false) Product product, UpdateProductPayload payload,
+    public String updateProduct(@ModelAttribute(name = "product", binding = false) Product product, UpdateProductPayload payload,
                                 Model model) {
         try {
             this.productsRestClient.updateProduct(product.id(), payload.title(), payload.details());
