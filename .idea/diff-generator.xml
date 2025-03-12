@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DiffGenerationConfig">
+    <option name="snapshotDbValue" value="7c6c463f-98aa-44c8-9225-5a3258d5f6b0" />
+    <option name="sourceModelValue" value="manager-app:entityManagerFactory" />
+    <option name="targetDbValue" value="1735a174-5d12-4977-8452-477e586e7886" />
+  </component>
+</project>

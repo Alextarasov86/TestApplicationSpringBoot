@@ -1,6 +1,7 @@
 package ru.alex.manager.controller;
 
 import lombok.RequiredArgsConstructor;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -10,6 +11,8 @@ import ru.alex.manager.client.BadRequestException;
 import ru.alex.manager.client.ProductsRestClient;
 import ru.alex.manager.controller.payload.NewProductPayload;
 import ru.alex.manager.entity.Product;
+
+import java.security.Principal;
 
 @Controller
 @RequiredArgsConstructor
